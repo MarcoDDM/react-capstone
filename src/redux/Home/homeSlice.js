@@ -12,5 +12,4 @@ const homeSlice = createSlice({
   initialState,
 });
 
-
 export default homeSlice.reducer;

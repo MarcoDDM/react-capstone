@@ -1,7 +1,7 @@
-const Details = () => {
-  return(
-      <></>
-  )
+function Details() {
+  return (
+    <p>Details</p>
+  );
 }
 
-export default Details
+export default Details;

@@ -4,9 +4,7 @@ const detailsSlice = createSlice({
   name: 'details',
   initialState: {},
   reducers: {
-    setDetailsData: (state, action) => {
-      return action.payload;
-    },
+    setDetailsData: (state, action) => action.payload,
   },
 });
 

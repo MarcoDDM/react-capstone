@@ -1,7 +1,7 @@
-const Home = () => {
-  return(
-      <></>
-  )
+function Home() {
+  return (
+    <p>Home</p>
+  );
 }
 
-export default Home
+export default Home;
