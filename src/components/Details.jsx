@@ -1,25 +1,30 @@
-import React, { useEffect, useState } from 'react';
+import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
+import StockComponent from './StockDetails';
 
-const Details = () => {
-  const { id } = useParams();
-  const [category, setCategory] = useState(null);
-
-  useEffect(() => {
-    // Fetch data for the specific category based on the 'id' parameter and update the 'category' state
-  }, [id]);
-
-  if (!category) {
-    return <div>Loading...</div>;
-  }
+const DetailComponent = () => {
+  const { slug } = useParams();
+  const stocksArray = useSelector((store) => store.stocks.stocks);
+  const content = stocksArray.find((stock) => stock.symbol === slug);
+  const {
+    symbol,
+    companyName,
+    marketCap,
+    beta,
+    price,
+    volume,
+  } = content;
 
   return (
-    <div>
-      <h2>{category.name}</h2>
-      <div>{category.description}</div>
-      <div>{category.numericValue}</div>
-    </div>
+    <StockComponent
+      companyName={companyName}
+      symbol={symbol}
+      marketCap={marketCap}
+      beta={beta}
+      price={price}
+      volume={volume}
+    />
   );
 };
 
-export default Details;
+export default DetailComponent;
