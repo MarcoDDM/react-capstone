@@ -22,7 +22,7 @@ function Stocks() {
         </h1>
         <div>
           {stocksArray.map((stock) => (
-            <NavLink to={`stock/${stock.symbol}`}>
+            <NavLink key={stock.symbol} to={`stock/${stock.symbol}`}>
               <div>
                 {stock.companyName}
                 <br />
