@@ -9,6 +9,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.text{
+  font-size: 1.8rem;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 0.5rem;
+}
+
+#searchFormContainer {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+#searchForm {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-style: italic;
+  border: none;
+  background: linear-gradient(45deg, black, transparent);
+  color: white
+}
+
+#closeSearch {
+  color: #ffffffc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title{
@@ -16,7 +57,7 @@
   font-size: 2rem;
   font-weight: bold;
   padding: 0.5rem 1rem;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   align-items: center;
   justify-content: center;
