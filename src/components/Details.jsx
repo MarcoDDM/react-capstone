@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import StockComponent from './StockDetails';
 
-const DetailComponent = () => {
+function DetailComponent() {
   const { slug } = useParams();
   const stocksArray = useSelector((store) => store.stocks.stocks);
   const content = stocksArray.find((stock) => stock.symbol === slug);
@@ -25,6 +25,6 @@ const DetailComponent = () => {
       volume={volume}
     />
   );
-};
+}
 
 export default DetailComponent;
