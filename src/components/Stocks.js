@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import './Stocks.css';
+import { AiOutlineStock, AiOutlineRightCircle, AiFillAccountBook } from 'react-icons/ai';
 import { fetchStocks } from '../redux/Stocks/stocksSlice';
 
 function Stocks() {
@@ -16,24 +18,34 @@ function Stocks() {
 
   return (
     <main>
-      <section>
-        <h1>
-          Market Cap
-        </h1>
-        <div>
-          {stocksArray.map((stock) => (
-            <NavLink key={stock.symbol} to={`stock/${stock.symbol}`}>
-              <div>
-                {stock.companyName}
+      <section className="main-section">
+        <AiFillAccountBook />
+      </section>
+      <section className="title">
+        STOCKS STATS
+      </section>
+      <section className="stocks">
+        {stocksArray.map((stock) => (
+          <div key={stock.symbol} className="stock">
+            <NavLink to={`stock/${stock.symbol}`}>
+              <div className="topHalf">
+                <div className="icon">
+                  <AiOutlineStock />
+                </div>
+                <div className="arrow">
+                  <AiOutlineRightCircle />
+                </div>
+              </div>
+              <div className="bottomHalf">
+                {stock.symbol}
                 <br />
-                Market Cap:
-                {' '}
+                $
                 {stock.marketCap}
                 <br />
               </div>
             </NavLink>
-          ))}
-        </div>
+          </div>
+        ))}
       </section>
     </main>
   );

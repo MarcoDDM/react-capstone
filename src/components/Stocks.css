@@ -1,0 +1,81 @@
+.main-section{
+  height: 12rem;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(41, 41, 41);
+  color: #ffffffc2;;
+  font-size: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.symbol{
+  color: white;
+  text-decoration: none;
+}
+
+.icon{
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.stocks{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+.stock{
+  height: 10rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6rem;
+  background-color: rgb(119, 119, 119);
+  color: white;
+  border: 1px solid black;
+}
+
+.arrow{
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.topHalf{
+  box-sizing: border-box;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.bottomHalf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+}
+
+.bottomHalf a{
+  text-decoration: none;
+}
