@@ -1,0 +1,83 @@
+section {
+  font-weight: bold;
+  background-color: black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(41, 41, 41);
+  color: #ffffffc2;
+  height: 10rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 5rem;
+  color: #fff;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+}
+
+.breakdown {
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  color: #5a9dffc2;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5a9dffc2;
+}
+
+span {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.arrow {
+  border-radius: 50%;
+  padding: 0.1rem;
+  margin-left: 1rem;
+  color: #5a9dffc2;
+}
+
+.even {
+  color: #ffffffc2;
+  background-color: rgb(63, 63, 63);
+}
+
+.odd {
+  color: #ffffffc2;
+  background-color: rgb(40, 40, 40);
+}
