@@ -4,7 +4,7 @@ import {
 } from 'react-icons/ai';
 import './Navbar.css';
 
-const Navbar = () => {
+function Navbar() {
   const handleOpenSearch = () => {
     const FormContainer = document.getElementById('searchFormContainer');
     FormContainer.classList.replace('hide', 'show');
