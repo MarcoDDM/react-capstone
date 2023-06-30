@@ -41,6 +41,6 @@ function Navbar() {
       </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;
