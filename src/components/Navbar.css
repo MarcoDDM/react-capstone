@@ -1,6 +1,6 @@
 nav {
   background-color: rgb(0, 0, 0);
-  color: #ffffff;
+  color: #fff;
   font-size: 1rem;
   position: fixed;
   width: 100%;
@@ -8,11 +8,13 @@ nav {
   left: 0;
   box-sizing: border-box;
 }
+
 .nav-icon {
   font-size: 1.5rem;
   position: relative;
   right: 10px;
 }
+
 .nav {
   list-style: none;
   padding: 0.5rem;
@@ -21,7 +23,8 @@ nav {
   justify-content: space-between;
   margin-bottom: 0;
 }
+
 a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
-}  
+}

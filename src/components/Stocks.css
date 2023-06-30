@@ -1,18 +1,17 @@
-.main-section{
+.main-section {
   height: 12rem;
   font-weight: bold;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: rgb(41, 41, 41);
-  color: #ffffffc2;;
+  color: #ffffffc2;
   font-size: 7rem;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.text{
+.text {
   font-size: 1.8rem;
   justify-content: flex-end;
   text-align: right;
@@ -42,7 +41,7 @@
   font-style: italic;
   border: none;
   background: linear-gradient(45deg, black, transparent);
-  color: white
+  color: white;
 }
 
 #closeSearch {
@@ -52,7 +51,7 @@
   align-items: center;
 }
 
-.title{
+.title {
   display: flex;
   font-size: 2rem;
   font-weight: bold;
@@ -63,12 +62,12 @@
   justify-content: center;
 }
 
-.symbol{
+.symbol {
   color: white;
   text-decoration: none;
 }
 
-.icon{
+.icon {
   font-size: 4rem;
   text-align: center;
   display: flex;
@@ -77,12 +76,12 @@
   color: white;
 }
 
-.stocks{
+.stocks {
   display: grid;
-grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.stock{
+.stock {
   height: 10rem;
   box-sizing: border-box;
   display: flex;
@@ -93,18 +92,18 @@ grid-template-columns: repeat(2, 1fr);
   border: 1px solid black;
 }
 
-.arrow{
+.arrow {
   text-align: center;
   padding: 0.5rem;
   font-size: 1rem;
   color: white;
 }
 
-.topHalf{
+.topHalf {
   box-sizing: border-box;
-    height: 5rem;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
 
 .bottomHalf {
@@ -112,10 +111,10 @@ grid-template-columns: repeat(2, 1fr);
   flex-direction: column;
   text-align: center;
   color: white;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
-.bottomHalf a{
+.bottomHalf a {
   text-decoration: none;
 }
