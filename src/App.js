@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
 import DetailComponent from './components/Details';
 import Stocks from './components/Stocks';
 import Show from './components/Show';
