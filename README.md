@@ -84,7 +84,7 @@ LIVE DEMO
 
 -[Live Demo](https://react-capstone-six.vercel.app/)
 
-[![Video Demo](https://cdn.loom.com/sessions/thumbnails/dec4f57c759b400e8c4e7f14cb1df71e-with-play.gif)](https://www.loom.com/embed/b55905739b6e4ea790cc20ac4974d97e?sid=7c25e245-1b6a-4912-b03f-8704d9c98d6d)
+[![Video Demo](https://cdn.loom.com/sessions/thumbnails/dec4f57c759b400e8c4e7f14cb1df71e-with-play.gif)](https://www.loom.com/share/30f34740e9ca4fbd955b814aa4ff7dbb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
