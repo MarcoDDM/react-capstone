@@ -34,16 +34,23 @@
 
 # 📖 Metric Web App <a name="about-project"></a>
 
-**Metric Web App** is a project to learn how to build a SPA.
+<div align="center">
+
+  <img src="stock_stats.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+</div>
+
+**Metric Web App** is a project to show API data on a SPA.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML</summary>
+  <summary>JSX</summary>
   <ul>
-    <li>REACT</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -55,7 +62,7 @@
 </details>
 
 <details>
-<summary>Javascript</summary>
+<summary>REACT</summary>
   <ul>
     <li>Javascript</li>
   </ul>
