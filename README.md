@@ -70,13 +70,13 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
+LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--[Live Demo](https://math-wiwrd.onrender.com/)
+-[Live Demo](https://react-capstone-six.vercel.app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
