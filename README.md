@@ -42,6 +42,7 @@
 </div>
 
 **Metric Web App** is a project to show API data on a SPA.
+![Video](https://cdn.loom.com/sessions/thumbnails/dec4f57c759b400e8c4e7f14cb1df71e-with-play.gif)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -82,6 +83,9 @@ LIVE DEMO
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 -[Live Demo](https://react-capstone-six.vercel.app/)
+
+[![Video Demo](https://cdn.loom.com/sessions/thumbnails/dec4f57c759b400e8c4e7f14cb1df71e-with-play.gif)](https://www.loom.com/share/dec4f57c759b400e8c4e7f14cb1df71e?sid=c7837ac1-1993-4a6f-8424-7b850479d0e7)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
