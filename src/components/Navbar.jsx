@@ -4,7 +4,7 @@ import {
 } from 'react-icons/ai';
 import './Navbar.css';
 
-function Navbar() {
+const Navbar = () => {
   const handleOpenSearch = () => {
     const FormContainer = document.getElementById('searchFormContainer');
     FormContainer.classList.replace('hide', 'show');
@@ -41,6 +41,6 @@ function Navbar() {
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
